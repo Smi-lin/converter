@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #6c757d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Converter {
+    padding: 1rem 2rem;
+    box-shadow: 0px 4px 16px 2px rgb(30, 30, 30);
+    border-radius: 1rem;
+    background: bisque;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.Converter > .title {
+    display: flex;
+    align-items: center;
+}
+
+.Converter > .title > svg {
+    width: 30px;
+    color: #888843;
+    margin-right: 0.4rem;
+}
+
+.Converter > .title > h1 {
+    font-size: 1.6rem;
+    font-weight: 900;
+}
+
+#convertForm > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+
+#convertForm > div > input,
+#convertForm > div > select {
+    background-color: beige;
+    border: 0.1rem solid rgb(210, 207, 207);
+    border-radius: 0.6rem;
+    padding: 1rem;
+    box-shadow: 0.8rem 0.3rem 1.4rem rgb(0, 0, 0, 0.1);
+    -webkit-border-radius: 0.6rem;
+    -moz-border-radius: 0.6rem;
+    -ms-border-radius: 0.6rem;
+    -o-border-radius: 0.6rem;
+}
+
+#convertForm > button {
+    width: 100%;
+    color: beige;
+    background: #888843;
+    padding: 1rem;
+    margin: 0.6rem 0;
+    cursor: pointer;
+}
+
+.result {
+    width: 100%;
+    font-weight: 900;
+}
+
+.error {
+    color: red;
+    padding: 2rem;
+}
